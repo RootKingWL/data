@@ -106,32 +106,32 @@ body {
 .navButton#top {
     -webkit-transform: rotateZ(90deg);
     -moz-transform: rotateZ(90deg);
-    -transform: rotateZ(90deg);
+    transform: rotateZ(90deg);
     margin: -178px 0 0 -18px;
     animation: btnjump1 1.5s ease-in-out infinite;
 }
 @keyframes btnjump1{
 0%,100%{-webkit-transform: rotateZ(90deg);
     -moz-transform: rotateZ(90deg);
-    -transform: rotateZ(90deg);-webkit-transform:translateY(15px);-ms-transform:translateY(15px);-o-transform:translateY(15px);transform:translateY(15px);filter:brightness(1.4)}
+    transform: rotateZ(90deg);-webkit-transform:translateY(15px);-ms-transform:translateY(15px);-o-transform:translateY(15px);transform:translateY(15px);filter:brightness(1.4)}
 50%{-webkit-transform: rotateZ(90deg);
     -moz-transform: rotateZ(90deg);
-    -transform: rotateZ(90deg);-webkit-transform:translateY(0px);-ms-transform:translateY(0px);-o-transform:translateY(0px);transform:translateY(0px);filter:brightness(1)}
+    transform: rotateZ(90deg);-webkit-transform:translateY(0px);-ms-transform:translateY(0px);-o-transform:translateY(0px);transform:translateY(0px);filter:brightness(1)}
 }
 .navButton#bottom {
     -webkit-transform: rotateZ(90deg);
     -moz-transform: rotateZ(90deg);
-    -transform: rotateZ(90deg);
+    transform: rotateZ(90deg);
     margin: 106px 0 0 -18px;
     animation: btnjump2 1.5s ease-in-out infinite;
 }
 @keyframes btnjump2{
 0%,100%{-webkit-transform: rotateZ(90deg);
     -moz-transform: rotateZ(90deg);
-    -transform: rotateZ(90deg);-webkit-transform:translateY(-15px);-ms-transform:translateY(-15px);-o-transform:translateY(-15px);transform:translateY(-15px);filter:brightness(1.4)}
+    transform: rotateZ(90deg);-webkit-transform:translateY(-15px);-ms-transform:translateY(-15px);-o-transform:translateY(-15px);transform:translateY(-15px);filter:brightness(1.4)}
 50%{-webkit-transform: rotateZ(90deg);
     -moz-transform: rotateZ(90deg);
-    -transform: rotateZ(90deg);-webkit-transform:translateY(0px);-ms-transform:translateY(0px);-o-transform:translateY(0px);transform:translateY(0px);filter:brightness(1)}
+    transform: rotateZ(90deg);-webkit-transform:translateY(0px);-ms-transform:translateY(0px);-o-transform:translateY(0px);transform:translateY(0px);filter:brightness(1)}
 }
 .navButton#left {
     margin: -35px 0 0 -166px;
