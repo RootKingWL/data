@@ -103,10 +103,7 @@ body {
 .navButton:hover {
     background: #5f5f5f;
 }
-.navButton#top {
-    -webkit-transform: rotateZ(90deg);
-    -moz-transform: rotateZ(90deg);
-    transform: rotateZ(90deg);
+.navButton#top { 
     margin: -178px 0 0 -18px;
     animation: btnjump1 1.5s ease-in-out infinite;
 }
@@ -114,10 +111,7 @@ body {
 0%,100%{-webkit-transform:rotateZ(90deg) translateX(15px);-ms-transform:rotateZ(90deg) translateX(15px);-o-transform:rotateZ(90deg) translateX(15px);transform: rotateZ(90deg) translateX(15px);filter:brightness(1.4)}
 50%{-webkit-transform:rotateZ(90deg) translateX(0px);-ms-transform:rotateZ(90deg) translateX(0px);-o-transform:rotateZ(90deg) translateX(0px);transform:rotateZ(90deg) translateX(0px);filter:brightness(1)}
 }
-.navButton#bottom {
-    -webkit-transform: rotateZ(90deg);
-    -moz-transform: rotateZ(90deg);
-    transform: rotateZ(90deg);
+.navButton#bottom { 
     margin: 106px 0 0 -18px;
     animation: btnjump2 1.5s ease-in-out infinite;
 }
