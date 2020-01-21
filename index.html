@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0,
+		maximum-scale=1.0,minimum-scale=1.0,user-scalable=0">
+<meta charset="UTF-8">
+<title>♥新年快乐♥</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+	<div id="time">
+		<span class="text1">亲爱的
+			<span style="color: rgb(80, 30, 160);">晋猪</span>
+			，我们已经相识:</span>
+		<span class="text2"></span>
+	</div> 
+	<figure id="multiSlide" class="multiSlide"><nav id="multiSlideNav" class="multiSlideNav">
+		<a  id="top" class="navButton"><</a>
+		<a  id="bottom" class="navButton">></a>
+		<a  id="left" class="navButton"><</a>
+		<a  id="right" class="navButton">></a>
+		</nav>
+	</figure> 
+	<!--===音乐：像风一样——薛之谦====================================--> 
+	<audio style="display:none; height: 0" id="bg-music"  preload="auto" src="music/a.mp3" loop="loop">
+		如果不播放，说明你的浏览器不支持！
+	</audio> 
+	<script  src="js/index.js"></script> 
+	<script>
+		document.addEventListener('DOMContentLoaded', function () {
+		function audioAutoPlay() {
+			var audio = document.getElementById('bg-music');
+				audio.play();
+			document.addEventListener("WeixinJSBridgeReady", function () {
+				audio.play();
+			}, false);
+		}
+		audioAutoPlay();
+		});
+	</script>
+</body>
+</html>
